@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EXIE Support</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="widget">
+
+<div id="header">
+EXIE Support
+</div>
+
+<div id="messages"></div>
+
+<div id="typing">Exie is typing...</div>
+
+<div id="quick">
+
+<button onclick="quick('Find rental')">Find Rental</button>
+<button onclick="quick('Maintenance issue')">Maintenance</button>
+<button onclick="quick('Rent receipt')">Rent Receipt</button>
+<button onclick="quick('Book showing')">Book Showing</button>
+
+</div>
+
+<div id="inputArea">
+
+<input id="input" placeholder="Ask EXIE...">
+
+<button onclick="send()">Send</button>
+
+<button onclick="voice()">🎤</button>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

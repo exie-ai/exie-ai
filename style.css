@@ -1,0 +1,83 @@
+body{
+font-family:Arial;
+background:#f3f5f8;
+}
+
+#widget{
+width:360px;
+margin:40px auto;
+background:white;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+overflow:hidden;
+}
+
+#header{
+background:#197ec2;
+color:white;
+padding:15px;
+font-weight:bold;
+}
+
+#messages{
+height:360px;
+overflow-y:auto;
+padding:15px;
+}
+
+.user{text-align:right;margin:10px 0}
+.bot{text-align:left;margin:10px 0}
+
+.bubble{
+display:inline-block;
+padding:10px 15px;
+border-radius:15px;
+}
+
+.user .bubble{
+background:#197ec2;
+color:white;
+}
+
+.bot .bubble{
+background:#eee;
+}
+
+#typing{
+font-size:12px;
+color:gray;
+padding-left:15px;
+display:none;
+}
+
+#quick{
+padding:10px;
+}
+
+#quick button{
+margin:4px;
+border:1px solid #197ec2;
+background:white;
+border-radius:20px;
+padding:6px 10px;
+cursor:pointer;
+}
+
+#inputArea{
+display:flex;
+border-top:1px solid #eee;
+}
+
+#inputArea input{
+flex:1;
+padding:10px;
+border:none;
+}
+
+#inputArea button{
+background:#e26d39;
+border:none;
+color:white;
+padding:10px;
+cursor:pointer;
+}
